@@ -1,24 +1,7 @@
 "use strict"
 
 /*
-* Made with love by Vadim Ogievetsky for Annie Albagli (Valentine's Day 2011)
-* Powered by Mike Bostock's D3
-*
-* For me on GitHub:  https://github.com/vogievetsky/KoalasToTheMax
-* License: MIT  [ http://koalastothemax.com/LICENSE ]
-*
-* If you are reading this then I have an easter egg for you:
-* You can use your own custom image as the source, simply type in:
-* http://koalastothemax.com?<your image url>
-* e.g.
-* http://koalastothemax.com?http://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/200px-Flag_of_the_United_Kingdom.svg.png
-*
-* also if you want to use a custom image and want people to guess what it is
-* (without seeing the url) then you can type the url in base64 encoding like so:
-* http://koalastothemax.com?<your image url in base64>
-* e.g.
-* http://koalastothemax.com?YXN0bGV5LmpwZw==
-* (try to guess the image above)
+* License: MIT  [ http://coffee2themax.cortadita.com/LICENSE ]
 */
 
 var koala = {
