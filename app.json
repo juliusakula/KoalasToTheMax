@@ -1,0 +1,68 @@
+{
+  "libraries": [
+    {
+      "version": "2.5.1", 
+      "name": "webapp2"
+    }, 
+    {
+      "version": "latest", 
+      "name": "markupsafe"
+    }
+  ], 
+  "application": "coffeetothemax", 
+  "version": 1, 
+  "threadsafe": false, 
+  "handlers": [
+    {
+      "url": "/img", 
+      "static_dir": "img"
+    }, 
+    {
+      "url": "/polyfill", 
+      "static_dir": "polyfill"
+    }, 
+    {
+      "url": "/js", 
+      "static_dir": "js"
+    }, 
+    {
+      "url": "/favicon.ico", 
+      "static_files": "favicon.ico", 
+      "upload": "favicon.ico"
+    }, 
+    {
+      "url": "/favicon.png", 
+      "static_files": "favicon.png", 
+      "upload": "favicon.png"
+    }, 
+    {
+      "url": "/koala.css", 
+      "static_files": "koala.css", 
+      "upload": "koala\\.css"
+    }, 
+    {
+      "url": "/LICENSE", 
+      "static_files": "LICENSE", 
+      "upload": "LICENSE", 
+      "mime_type": "text"
+    }, 
+    {
+      "url": "/README", 
+      "static_files": "README.md", 
+      "upload": "README\\.md", 
+      "mime_type": "text"
+    }, 
+    {
+      "url": "/", 
+      "static_files": "index.html", 
+      "upload": "index\\.html"
+    }, 
+    {
+      "url": "/.*", 
+      "static_files": "404.html", 
+      "upload": "404\\.html"
+    }
+  ], 
+  "runtime": "python27", 
+  "api_version": 1
+}
